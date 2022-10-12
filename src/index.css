@@ -111,3 +111,21 @@ h4{
 .copyright a:hover {
   color: #ff7979;
 }
+
+@media (max-width:800px) {
+  html {
+      min-height: 100vh;
+      min-width: 100vw;
+      font-family: 'Barlow', sans-serif;
+      font-size: 53%;
+    }
+    .inputs{
+      flex-direction: column;
+    }
+        input{
+          width: 100%;
+        }
+        footer{
+          font-size: 1.1rem;
+        }
+}
